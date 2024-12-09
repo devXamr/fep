@@ -10,8 +10,8 @@ function App() {
   return <div>
     <BrowserRouter>
       <Routes>
-        <Route path='/0' element={<Bento/>}/>
-        <Route path='/1' element={<Cafe/>}/>
+        <Route path='/bento' element={<Bento/>}/>
+        <Route path='/cafe' element={<Cafe/>}/>
 
       </Routes>
 

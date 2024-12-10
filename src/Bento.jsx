@@ -10,7 +10,7 @@ import ai from "./assets/assets/images/illustration-ai-content.webp";
 export default function Bento() {
 
 
-    return <div className='lg:grid lg:grid-cols-4 lg:grid-rows-4 lg:grid-flow-row lg:auto-rows-min lg:gap-4'>
+    return <div className='lg:grid lg:grid-cols-4 lg:grid-rows-4 lg:grid-flow-row lg:auto-rows-min lg:gap-4 lg:w-[1280px] lg:mx-auto lg:mt-12 mx-6 mt-7 mb-5'>
 
         <div
             className='bg-[#7650dc] pt-7 rounded-lg px-5 shadow-sm lg:col-span-2 lg:col-start-2 lg:row-start-1 lg:row-end-auto'>

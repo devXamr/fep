@@ -5,6 +5,7 @@ import Cafe from "./Cafe.jsx";
 import {data} from "./data.js";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./Home.jsx";
+import Profile from "./Profile.jsx";
 function App() {
 
 
@@ -14,6 +15,8 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/bento' element=<Bento/>/>
         <Route path='/cafe' element=<Cafe/>/>
+        <Route path='/profile' element=<Profile/>/>
+
 
       </Routes>
 

@@ -96,13 +96,13 @@ export default function Cafe(){
 
 
 
-    return <div className='lg:flex mx-5 lg:px-28 mt-7 mb-5 lg:mt-0'>
+    return <div className='lg:flex mx-5 lg:px-28 mt-7 mb-5 lg:mt-0 bg-white'>
 
         <div className={`${confirmClicked && 'overflow-hidden fixed lg:mr-16 lg:pl-5 lg:pr-24'}`}>
 
             <div className='lg:flex lg:mt-14'>
 
-                <div className='lg:w-3/4 pr-6'>
+                <div className='lg:w-3/4 lg:pr-6'>
                 <div className='font-black text-5xl text-left mb-7'>Desserts</div>
                 <div className='lg:flex lg:flex-wrap'>
                     <SingleMenuItem category='Waffle' name='Waffle with Berries' image={waffle_mob} price='6.50'

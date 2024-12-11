@@ -9,6 +9,7 @@ export default function Home(){
     return <div>
         <div onClick={() => {handleClick('bento')}}>bento</div>
         <div onClick={() => {handleClick('cafe')}}>cafe</div>
+        <div onClick={() => {handleClick('profile')}}>profile</div>
 
     </div>
 }

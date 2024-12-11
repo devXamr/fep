@@ -9,7 +9,7 @@ export default function SingleMenuItem({image, category, name, price, addFunc, s
 
 
 
-    return <div className='mb-5 lg:w-1/3 lg:px-4 lg:mx-0 md:w-2/3 md:mx-auto'>
+    return <div className='mb-5 lg:w-1/3 lg:px-4 lg:mx-0 md:w-2/3 md:mx-auto mx-auto'>
         <img src={image} className={`rounded-xl drop-shadow-sm ${count > 0 && 'border-2 border-[#87635a]'}`}/>
         {count === 0 && <div onClick={() => addFunc(name)}
                              className='bg-white rounded-full px-6 py-2 border border-[#87635a] w-max relative mx-auto bottom-5 flex hover:cursor-pointer'>
